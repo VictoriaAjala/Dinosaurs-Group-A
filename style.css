@@ -13,4 +13,20 @@
     font-style: normal;
 }
 
- 
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    transition: 0.5s linear;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 100px;
+}
+
+header.shadow{
+    background: var(--bg-color);
+    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
+}
