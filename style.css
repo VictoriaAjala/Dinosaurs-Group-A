@@ -38,3 +38,17 @@ header.shadow {
     background: var(--bg-color);
     box-shadow: 0 0 4px rgb(14 55 54 / 15%);
 }
+
+.logo {
+display: flex;
+align-items: center;
+font-size: 1.5rem;
+font-weight: 500;
+column-gap: 0.2rem;
+color: var(--text-color);
+}
+
+.logo .bx {
+  font-size: 1.5rem;
+  color: var(--main-color);
+}
