@@ -85,3 +85,18 @@ color: var(--text-color);
   font-size: 1.5rem;
   color: var(--main-color);
 }
+
+.navbar {
+	display: flex;
+  column-gap: 2.4rem;
+}
+
+.navbar a {
+	color: var(--text-color);
+  font-size: 1rem;
+  font-weight: 400;
+  
+}
+.navbar a:hover {
+	color: var(--main-color);
+}
