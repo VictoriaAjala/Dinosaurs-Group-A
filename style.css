@@ -51,11 +51,16 @@ header.shadow {
 .navbar a {
 	color: var(--text-color);
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 500;
   
 }
 .navbar a:hover {
 	color: var(--main-color);
+}
+.header-icons {
+  font-size: 20px;
+  cursor: pointer;
+  z-index: 100000;
 }
 
 .home {
@@ -90,7 +95,6 @@ img {
   color: var(--text-color);
   line-height: 3.6rem;
 }
-  
   
 .logo {
 display: flex;
