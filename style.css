@@ -34,11 +34,6 @@ header {
     padding: 20px 100px;
 }
 
-header.shadow {
-    background: var(--bg-color);
-    box-shadow: 0 0 4px rgb(14 55 54 / 15%);
-}
-
 .home {
   width: 100%;
   min-height: 90vh;
@@ -131,3 +126,39 @@ margin-top: 2rem;
 }
 .new-arrival .box:hover .content {
     top: 0;
+
+.cart {
+  position: absolute;
+  top: 110%;
+  right: -100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+  background: var(--bg-color);
+  padding: 20px;
+  border-radius: 0.5rem;
+  box-shadow: var(--bg-color);
+}
+.cart img {
+  width: 100px;
+}
+.cart .box {
+  display: flex;
+  align-items: center;
+  column-gap: 2rem;
+}
+.cart .box .text h3 {
+  font-size: 1rem;
+}
+.cart .box .bx:hover {
+  color: var(--main-color);
+}
+.cart h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+.cart.active {
+  right: 1rem;
+  transition: 0.2s;
+}
