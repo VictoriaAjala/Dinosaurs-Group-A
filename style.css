@@ -209,3 +209,25 @@ box-shadow: var(--box-shadow);
   right: 1rem;
   transition: 0.2s;
 }
+
+.board {
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+  width: 100vh;
+  background: var(--main-color);
+}
+.board-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, auto));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.board-container .box {
+  padding: 10px;
+  border-radius: 0.5rem;
+  background: var(--second-color);
+  text-align: center;
+  box-shadow: var(--box-shadow);
+}
