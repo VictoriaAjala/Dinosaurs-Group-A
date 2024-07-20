@@ -236,6 +236,7 @@ box-shadow: var(--box-shadow);
 .marquee-container {
   height: 30vh;
 }
+
 .marquee {
   background: #54a227;
   line-height: 3rem;
@@ -245,6 +246,7 @@ box-shadow: var(--box-shadow);
   align-items: center;
   animation: scrolling 3s linear infinite;
 }
+
 .marquee h1 {
   color: var(--second-color);
   font-weight: 600;
