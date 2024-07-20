@@ -233,3 +233,25 @@ box-shadow: var(--box-shadow);
   color: var(--text-color);
 }
 
+.marquee-container {
+  height: 30vh;
+}
+.marquee {
+  background: #54a227;
+  line-height: 3rem;
+  height: 20vh;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  animation: scrolling 3s linear infinite;
+}
+.marquee h1 {
+  color: var(--second-color);
+  font-weight: 600;
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+
+
+
