@@ -290,22 +290,27 @@ margin-top: 2rem;
 }
 
 .marquee-container {
-  height: 30vh;
+  top: 0;
+  padding-top: 5rem;
+  height: 10vh;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 
 .marquee {
-  background: #54a227;
-  line-height: 3rem;
-  height: 20vh;
+  width: 100%;
+  background: #9b8e62;
+  height: 5vh;
   justify-content: center;
   display: flex;
   align-items: center;
-  animation: scrolling 3s linear infinite;
+  animation: scrolling 2s linear infinite;
 }
 
 .marquee h1 {
   color: var(--second-color);
   font-weight: 600;
-  font-size: 40px;
+  font-size: 25px;
   letter-spacing: 3px;
 }
