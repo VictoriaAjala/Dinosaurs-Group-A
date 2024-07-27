@@ -258,7 +258,7 @@ margin-top: 2rem;
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 100vh;
+  height: 140vh;
   width: 100%;
   background: var(--main-color);
 }
@@ -276,18 +276,18 @@ margin-top: 2rem;
   box-shadow: var(--box-shadow);
 }
 .board-container .box img {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
   object-fit: cover;
   border-radius: 50%;
 }
 .board-container .box p {
-  font-size: 0.938rem;
+  font-size: 0.900rem;
   font-style: italic;
   margin: 0.5rem 0.5rem;
 }
 .board-container .box h2 {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: 600;
 }
 .board-container .box:hover {
