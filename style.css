@@ -368,3 +368,22 @@ margin-top: 2rem;
 .user .login-btn:hover {
   background: var(--text-color);
 }
+.user input {
+  border: none;
+  outline: none;
+  background: var(--second-color);
+  padding: 10px;
+  border-radius: 0.5rem;
+  width: 100%;
+  }
+  .user p {
+    font-size: 0.938rem;
+  }
+  .user a {
+    text-decoration: underline;
+    color: var(--main-color);
+  }
+  .user.active {
+    right: 1rem;
+    transition: 0.2s;
+  }
