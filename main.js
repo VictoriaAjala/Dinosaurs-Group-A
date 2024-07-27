@@ -44,3 +44,10 @@ window.onscroll = () => {
     user.classList.remove('active');
     navbar.classList.remove('active');
 }
+
+// Navbar screen
+let header = document.querySelector('header');
+
+window.addEventListener('scroll', () => {
+    header.classList.toggle('shadow', window.scrollY > 0)
+});
