@@ -544,3 +544,30 @@ margin-top: 2rem;
   .payment img {
    width: 44px;
   }
+button:hover {
+  background-color: #60531c;
+}
+.hidden {
+  display: none;
+}
+.booking-subtittle {
+  font-size: 0.938rem;
+  color: var(--text-color);
+}
+.booking-text {
+  display: inline-block;
+  margin-bottom: 1rem;
+}
+.booking-inputs {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 1rem;
+}
+.booking-input {
+  width: 100%;
+  padding: 0.8rem;
+  outline: none;
+  font-size: 15px;
+  margin-bottom: 2rem;
+  border-radius: 0.5;
+}
