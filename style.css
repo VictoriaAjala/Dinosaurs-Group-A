@@ -495,10 +495,12 @@ margin-top: 2rem;
     line-height: 1.7rem;
     font-size: 22px;
     font-weight: 700;
+    text-shadow: 0 10px 10px rgba(0.2, 0, 0.2, 0.5);
   }
   .about-text {
     font-weight: 600;
     font-size: 20px;
+    text-shadow: 0 10px 10px rgba(0.2, 0, 0.2, 0.5);
   }
   video {
     filter: blur(2px);
