@@ -28,6 +28,16 @@ document.querySelector('#user-icon').onclick = () =>{
 
 }
 
+document.getElementById('booking-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+
+
+    // Show confirmation message
+    document.getElementById('booking-form').classList.add('hidden');
+    document.getElementById('confirmation').classList.remove('hidden');
+});
+
+
 
 // navbar section
 let navbar = document.querySelector('.navbar');
