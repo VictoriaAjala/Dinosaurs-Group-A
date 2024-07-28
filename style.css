@@ -428,6 +428,37 @@ margin-top: 2rem;
     cursor: pointer;
   }
 
+  
+  .booking {
+    background: var(--second-color);
+    justify-items: center;
+    width: 100%;
+    height: 100vh;
+  }
+  .booking-container {
+    background-color: #fff;
+    padding: 40px;
+    position: absolute;
+    right: 7%;
+    height: 500px;
+    margin-top: 5rem;
+    row-gap: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 500px;
+  }
+  .booking-info {
+    text-align: left;
+    width: 500px;
+    position: absolute;
+    display: inline-block;
+    margin-top: 16%;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+
   .about-container {
     position: relative;
     width: 100%;
@@ -472,10 +503,4 @@ margin-top: 2rem;
   video {
     filter: blur(2px);
   }
-
-
-
-
-
-
 
