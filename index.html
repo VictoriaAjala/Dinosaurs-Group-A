@@ -126,16 +126,17 @@
             </div>
         </section>
         
-            <!-- Second Marquee -->
-            <section class="marquee-container">
-                <marquee class="marquee" behavior="scroll" direction="left"><h1>Summer Sales Coming Up! GET 10% DISCOUNT OFF EVERY SALE</h1></marquee>
-            </section>
+
 
         <!-- Product -->
 <section class="product" id="product">
     <div class="heading">
         <h1>Our <span class="btn">Product</span></h1>
         </div>
+                    <!-- Second Marquee -->
+                    <section class="marquee-container">
+                        <marquee class="marquee" behavior="scroll" direction="left"><h1>Summer Sales Coming Up! GET 10% DISCOUNT OFF EVERY SALE</h1></marquee>
+                    </section>
         <div class="product-container">
             <div class="box">
                 <img src="assets/tshirts001.jpg" alt="">
@@ -412,12 +413,7 @@
     </div>
     </section>
 
-   <!--Third Marquee-->
-    <section>
-    <div class="marquee-container">
-        <marquee class="marquee" behavior="scroll" direction="left"><h1>Summer Sales Coming Up! GET 10% DISCOUNT OFF EVERY SALE</h1></marquee>
-    </div>
-    </section>
+
                 <!--Board Of Directors-->
                 <section class="board" id="board">
                     <div class="heading">
@@ -479,7 +475,7 @@
                             <img src="assets/sam.JPG">
                             <h2>Samuel John</h2>
                             <h2>Finance Expert</h2>
-                            <p>Cyber Security Department</p>
+                            <p><A>A CyberSecurity student at Miva Open university aspiring to make a mark in the security space of the cyberspace. </A></p>
                         </div>
 
                         <div class="box">
@@ -492,6 +488,63 @@
                     </div>
 
                 </section>
+
+                   <!--Third Marquee-->
+    <section>
+        <div class="marquee-container">
+            <marquee class="marquee" behavior="scroll" direction="left"><h1>Summer Sales Coming Up! GET 10% DISCOUNT OFF EVERY SALE</h1></marquee>
+        </div>
+        </section>
+        
+                 <!--booking-->
+                 <section class="booking" id="booking">
+                    <div class="heading">
+                        <h1>Book an <span class="btn">Appointment</span></h1>
+                    </div>
+
+                    <div class="booking-info">
+                        <h2 class="booking-subtitle">Get in touch with D' VIBRANTIS</h2>
+                        <span class="booking-text">To learn more about our collections, services, or any inquiries you may have. </span>
+
+                        <span class="booking-subtitle">We're here to assist you in every step of your journey towards discovering your signature style. </span>
+                            
+                            <span>Reach out via phone, email, or visit our store for a personalized shopping experience.</span>
+                        
+
+                    </div>
+                    
+                    
+
+                    <form id="booking-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+
+                    <label for="date">Preferred Date:</label>
+                    <input type="date" id="date" name="date" required>
+
+                    <label for="service">Select Service:</label>
+                    <select id="service" name="service" required>
+
+                        <option value="consultation">Consultation</option>
+                        <option value="fitting">Fitting</option>
+                        <option value="custom-design">Custom Design</option>
+                    </select>
+
+                    <button class="booking-button" value="Enter" type="submit">Book Now</button>
+
+                </form>
+
+            </div>
+        </section>
+
+                        
+                
                 <script src="main.js"></script>
 </body>
 </html>

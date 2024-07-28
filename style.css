@@ -71,7 +71,7 @@ header.shadow {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(17rem,1fr));
   align-items: center;
-  gap: 1.5rem;
+  gap: 2rem;
   background: var(--second-color);
 }
 
@@ -306,8 +306,7 @@ margin-top: 2rem;
 
 .marquee-container {
   top: 0;
-  padding-top: 5rem;
-  height: 10vh;
+  padding-top: 3rem;
   justify-content: center;
   align-items: center;
   display: flex;
@@ -316,7 +315,7 @@ margin-top: 2rem;
 .marquee {
   width: 100%;
   background: #9b8e62;
-  height: 5vh;
+  height: 3.5vh;
   justify-content: center;
   display: flex;
   align-items: center;
@@ -326,7 +325,7 @@ margin-top: 2rem;
 .marquee h1 {
   color: var(--second-color);
   font-weight: 600;
-  font-size: 25px;
+  font-size: 20px;
   letter-spacing: 3px;
 }
 
