@@ -456,6 +456,10 @@ clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
     align-items: center;
     color: var(--bg-color);
   }
+  .about-content:hover {
+    font-size: 8rem;
+    transition: 0.3s linear;
+  }
   .about-title {
     font-size: 4vw;
     line-height: 3.9rem;
