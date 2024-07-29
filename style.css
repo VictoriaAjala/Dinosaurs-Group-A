@@ -74,7 +74,14 @@ header.shadow {
   gap: 2rem;
   background: var(--second-color);
 }
-
+.about-container{
+  width: 100%;
+height: 100vh;
+justify-content: center;
+row-gap: 2rem;
+text-align: center;
+background: var(--bg-color);
+}
 img {
   width: 100%;
 }
