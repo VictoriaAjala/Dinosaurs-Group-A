@@ -233,7 +233,8 @@ clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
   justify-content: center;
   align-items: center;
   position: relative;
-  height: 140vh;
+  margin-top: 5rem;
+  height: 120vh;
   width: 100%;
   background: var(--main-color);
 }
@@ -372,6 +373,8 @@ clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
   }
   .booking-info span {
     font-size: 20px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
   form {
     display: flex;
@@ -431,7 +434,7 @@ clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
   .about-container {
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -446,7 +449,7 @@ clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
     object-fit: cover;
   }
   .about-content {
-    width: 700px;
+    width: 720px;
     z-index: 4;
     line-height: 1.7rem;
     justify-items: center;
@@ -470,6 +473,9 @@ clip-path: polygon(100% 0, 93% 50%, 86% 99%, 0% 100%, 7% 47%, 13% 0%);
     font-weight: 600;
     font-size: 20px;
     text-shadow: 0 10px 10px rgba(0.2, 0, 0.2, 0.5);
+  }
+  .about-text:hover {
+    font-size: 25px;
   }
   video {
     filter: blur(2px);
